@@ -1,0 +1,128 @@
+body {
+  background-color: #4677f6;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-bottom: 1%;
+}
+
+.container {
+  width: 448px;
+  height: 700px;
+  background-color: #fff;
+  margin-left: 30%;
+  margin-top: 2%;
+  position: relative;
+}
+
+.header-heading {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.imagg {
+  opacity: 0.4;
+}
+
+.imagg:hover {
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+.lupa {
+  opacity: 0.4;
+}
+
+.lupa:hover {
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+.simp {
+  font-size: 18px;
+}
+
+.lupa {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.map {
+  width: 480px;
+  height: 160px;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: -10px;
+}
+
+.link {
+  background-color: #4677f6;
+  padding: 2px 25px;
+  position: absolute;
+  top: 156px;
+  left: 250px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 5px;
+}
+
+.link:hover {
+  background-color: #4065c4;
+}
+
+.location-p {
+  color: white;
+}
+
+.hamburg-h3 {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 30px;
+}
+
+.direction-boxes {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.h3-direction {
+  font-size: 15px;
+  line-height: 0;
+}
+
+.second-direction {
+  margin-top: 320px;
+}
+
+.third-direction {
+  margin-top: 390px;
+}
+
+.boll {
+  margin-top: -140px;
+}
+
+.street {
+  margin-top: 480px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 425px;
+  margin-left: 24px;
+}
+
+.last-direction {
+  top: 380px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,21 @@
+.header-heading {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.simp {
+  font-size: 18px;
+}
+
+.lupa {
+  opacity: 0.5;
+  cursor: pointer;
+}/*# sourceMappingURL=header-heading.css.map */

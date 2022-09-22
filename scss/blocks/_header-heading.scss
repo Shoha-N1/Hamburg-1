@@ -1,0 +1,41 @@
+
+ .header-heading {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .location {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  
+  .imagg {
+    opacity: 0.4;
+  }
+
+  .imagg:hover {
+    opacity: 1;
+    transition: 0.3s ease;
+  }
+  
+  .lupa {
+    opacity: 0.4;
+  }
+
+  .lupa:hover {
+    opacity: 1;
+    transition: 0.3s ease;
+  }
+
+  .simp {
+    font-size: 18px;
+  }
+  
+  .lupa {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
