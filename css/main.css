@@ -62,19 +62,24 @@ body {
   margin-left: -10px;
 }
 
-.link {
+.btn {
   background-color: #4677f6;
   padding: 2px 25px;
   position: absolute;
   top: 156px;
+  width: 171px;
+  margin-left: 6px;
+  height: 50px;
+  margin-top: 13px;
   left: 250px;
   display: flex;
   align-items: center;
   gap: 15px;
   border-radius: 5px;
+  border: none;
 }
 
-.link:hover {
+.btn:hover {
   background-color: #4065c4;
 }
 
@@ -118,11 +123,103 @@ body {
   margin-top: 480px;
   height: 80px;
   -o-object-fit: cover;
-     object-fit: cover;
-  width: 425px;
-  margin-left: 24px;
+  object-fit: cover;
+  width: 448px;
+  margin-left: 1px;
 }
 
 .last-direction {
-  top: 380px;
+  margin-top: 5px;
+}
+
+.boxes {
+  width: 489px;
+  height: 127px;
+  margin-left: 0px;
+  margin-top: 7px;
+  background-color: rgba(44, 98, 235, 0.521);
+}
+
+.box {
+  width: 488px;
+  height: 127px;
+  background-image: url(./../../img/map.png);
+  margin-top: 1px;
+  margin-left: -19px;
+  background-size: cover;
+}
+
+.hash4 {
+  position: absolute;
+  color: #fff;
+  margin-left: 30px;
+  margin-top: 42px;
+  font-size: 21px;
+}
+
+.span-1 {
+  position: absolute;
+  border: 1px solid #fff;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 150px;
+  margin-top: 51px;
+}
+
+.span-2 {
+  position: absolute;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  width: 203px;
+  margin-left: 161px;
+  margin-top: 57px;
+}
+
+.span-3 {
+  position: absolute;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  width: 87px;
+  margin-left: 161px;
+  margin-top: 55px;
+}
+
+.span-4 {
+  position: absolute;
+  border: 1px solid #fff;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 362px;
+  margin-top: 51px;
+}
+
+.span-5 img {
+  width: 20px;
+  height: 20px;
+  margin-top: 28px;
+  margin-left: 231px;
+}
+
+.hash04 {
+  position: absolute;
+  color: #fff;
+  margin-left: 393px;
+  margin-top: -10px;
+  font-size: 21px;
+}
+
+.hash1 {
+  color: #fff;
+  margin-left: 30px;
+  margin-top: 27px;
+  font-size: 16px;
+}
+
+.hash2 {
+  color: #fff;
+  margin-left: 253px;
+  margin-top: -43px;
+  font-size: 16px;
 }/*# sourceMappingURL=main.css.map */
